@@ -96,7 +96,7 @@ In addition to the above limitation, Macros cannot pause between lines except on
 
 Despite these limitations there are a few cases where macros are common/acceptable:
 * **Sprint** - For whatever reason, this ability already lacks the ability to queue. As such there is no disadvantage to using a macro for it. A macro that has "/ac Sprint" 13 times will give you the same functionality as the normal sprint button, but will try for 13 frames instead of 1. The reason it's 13 instead of 15 is so that the last two lines can be used to turn off macro errors and change the icon to match Sprint.
-* **Ground Targeted Abilities** - These abilities also cannot be queued, because when you first "use" them they instead open a targeting reticle for aiming them. This reticle will not appear if you are in any way unable to activate it (e.g. animation lock). As such people frequently macro these to either enemy target, or self-target (so that they drop at their own feet). Salted Earth is a good example. Fair warnign: If you use enemy target and the enemy is floating off the platform, the macro will fail. Keep the "real" version somewhere on your hotbars as backup.
+* **Ground Targeted Abilities** - These abilities also cannot be queued, because when you first "use" them they instead open a targeting reticle for aiming them. This reticle will not appear if you are in any way unable to activate it (e.g. animation lock). As such people frequently macro these to either enemy target, or self-target (places at your feet), so that they can skip the aiming step. Salted Earth is a good example. Fair warnign: If you use enemy target and the enemy is floating off the platform, the macro will fail. Keep the non-macro version somewhere on your hotbars as backup.
 * **Single Targeted Friendly Abilities** - This includes things like Shirk, or Nascent Flash. Mostly a tank thing. While it _is_ more optimal to quickly swap targets and use the ability the hard way, some may have trouble swapping quickly or smoothly enough to make it worth it, in which case using a macro to aim them at a specific teammate instead is potentially a better option. 
 * **Crafting/RPing** - Not covered here. Crafters use macros extensively since crafting is not timing sensitive, but the reliability gains are huge. RPers also use macros for various things. But please don't be that guy that has an RP macro attached an ability. It just annoys people. You can use the /echo command to post messages to only your chat if you absolutely must.
 
@@ -124,7 +124,7 @@ The most common macro is formed as follows:
 
 The first line disables errors so that you aren't spammed with nasty messages/sounds when /ac Sprint fails to activate. /ac Sprint attempts to activate the Sprint ability. /micon Sprint causes the icon of the macro to change to match Sprint's icon (purely for visual's sake).
 
-For the other two cases you can use \<t>, \<ft>, or \<(a number)>  (e.g. \<2>) to target). 
+For the other two cases you can use \<t>, \<ft>, \<me>, or \<(a number)>. These are your target, your focus target, yourself, and the numbered person in your party list respectively (e.g. \<2> to target the 2nd person in your party list).
 
 Example shirk macro:
 
