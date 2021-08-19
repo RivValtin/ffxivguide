@@ -1,1 +1,6 @@
 theme: jekyll-theme-midnight
+title: FFXIV Guide
+description: A basic guide to FFXIV combat.
+plugins:
+  - jekyll-relative-links
+ 
