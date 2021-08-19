@@ -143,5 +143,5 @@ Example shirk macro:
 /ac Shirk <2>
 /ac Shirk <2>
 /ac Shirk <2>
-/micon Sprint
+/micon Shirk
 ```
