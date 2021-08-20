@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
-
-### Preamble
-
 This guide will go over a large number of aspects of FFXIV combat, sometimes in excruciating detail. Do not feel compelled to fully read every section right away. 
-
-Anything class specific, at this time, is whatever I get around to. Usually what I happen to be playing. There will likely be better opener or rotations out there, and you should always check multiple sources if truly trying to be as optimal as possible. (But save that for after you master the basics.)
 
 Where relevant, the contents of these pages will only cover playing to maximize your team. There are cases where you can make choices that are better for your personal numbers, but worse for the team. I will not spend much time on such instances. The goal is to get the win, not to show off, though the two are often remarkably similar.
 
+If you really want to maximize your game, I encourage you to check multiple guide sources and cross-compare them. If two guides disagree on how to handle something, experiment with it yourself to decide which seems better to you.
+
 ### Topics
 
-* [Hotbars](hotbars.md) (not started)
+* [Hotbars](hotbars.md)
 * [Camera Settings](camera.md) (not started)
 * [The Basics - Uptime and oGCDs](basics.md) (WIP)
 * [Parses, and How to Read Them](parses.md) (not started)
 * Addons/Mods - These are against terms of service and will break on patch day, somtimes staying broken for a week. Not advised, and also unnecessary. Parsing for personal use is a tenuous exemption. Never talk about any such tool in game in any way, parsing included (don't even mention DPS). That is the totality of my coverage on such things, except as present in the Parses page.
+
+### Class Guides
+
+TODO. But I won't cover every class here, that's too much work for one person. Most likely I'll focus on the 1-2 I play the most at the time.
 
 <!--
 	Hotbars
