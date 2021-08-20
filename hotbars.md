@@ -53,7 +53,7 @@ There are a lot of things you can do to handle this situation:
 ### Pitfalls
 
 Some common mistakes people make:
-* **Keybinding Limit Break** - Just in case you're doing this, avoid keybinding limit break. For safety it's best to simply click limit break using a hotbar that's shared between jobs, so that you don't accidentally fat-finger it at a bad time. Having it be a shared hotbar.
+* **Keybinding Limit Break** - Just in case you're doing this, avoid keybinding limit break. For safety it's best to simply click limit break using a hotbar that's shared between jobs, so that you don't accidentally fat-finger it at a bad time. 
 * **Awkward Modifier Sequences** - It's easy to accidentally set up keybinds such that you have to hit something like Shift+E then Alt+W back to back. This means two fingers have to move for both actions, making it a slow combo. 
 * **Binding Modifier+(Movement Button)** - If a key, such as W, is bound to an action _and_ a modified bind exists (e.g. Shift+W) then having that modifier pressed prevents the unmodified version from activating! If you bind the Shift version of your movement keys to something, you may find you cannot move when using shift to reach other abilities. That's a huge problem! So don't bind your movement keys in a modified version anywhere. No shifts, alts, or controls.
 * **Changing Binds Near Raid Day** - Avoid massive changes to your keybinds close to a raid day. This may mean waiting a few weeks to be done with a raid tier. Minor changes don't usually cause problems. If you learn quick and your team has 3-4 days between raid nights you might be able to pull off bigger changes with only some loss, but give yourself time to practice the change!
