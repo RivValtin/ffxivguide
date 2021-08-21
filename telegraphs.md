@@ -3,6 +3,8 @@ layout: default
 ---
 A list of various commonly-used telegraphs and what they mean, as well as common ways to handle them. Most have a common pattern of telegraphing (i.e. warning you about what's going to happen) then actually happening a few seconds later (can be called activating, going off, or resolving). 
 
+There are a huge number of special-case telegraphs. While that might seem annoying, they usually works the same as another telegraph on this list and are just visually different. The more mechanics you've seen and understand the easier it will get to pick up on these, but the developers add new twists to new fights all the time to keep things interesting.
+
 ### Acceleration Bombs
 
 (Screenshot pending, appears as dice counting down over your head.)
@@ -17,6 +19,9 @@ Most instances of this mechanic require you to move away from the person you are
 
 Regardless of which chain mechanic type it is, you can be assured that if you are attached to another player via some kind of line, distance matters. Sometimes you need to move far apart (usually this), sometimes you need to be close together, and in rare instances the distance needs to be just right (both too far and too close punish you).
 
+**Magnetic Chains**
+Looks like a regular chain, but you also have a plus or minus symbol over your head. These two indicate magnetic polarity. If you have the same symbol, you will be pushed apart. If you have the opposite symbol, you will be pulled together. Usually the right answer is to start the opposite (start close if it pushes apart, start far apart if it pulls together.)
+
 ### Counting Towers
 
 (Screenshot pending, appears as a circular area on the ground with multiple marks that light up one at a time for each person inside.)
@@ -29,9 +34,9 @@ One variation of this attack, which specifically uses dots, will show chains aro
 
 (Screenshot pending)
 
-This mark is almost always (if not always) a punishment for failing to do a mechanic correctly. _These are extremely punishing_, typically being -50% damage for 30 seconds or more. Avoid at absolutely all costs! Even standing there doing nothing for 10s to avoid it is better than taking this hit.
+This mark is almost always a punishment for failing to do a mechanic correctly. _These are extremely punishing_, typically being -50% damage for 30 seconds or more. Avoid at absolutely all costs! Even standing there doing nothing for 10s to avoid it is better than taking this hit.
 
-Sometimes derogatorially called a Dumbage Down.
+Sometimes derogatorially called a Dumbage Down. There is at least one example of a forced damage down, however that particular one can be removed by a healer, so it's more of an esuna check.
 
 ### Gaze Attack
 
@@ -69,6 +74,10 @@ Some knockbacks aren't telegraphed separately, but are instead punishments for f
 
 These indicate that you must kill the rock before the meteor falling on that location finishes landing or you will take huge damage.
 
+### Orbs
+
+A slow-moving spherical projectile moving through the battlefield. Typically does very large damage if you touch it, sometimes in an area. Should be avoided. Note that due to network latency, you should treat the hitbox of the orb as being a little be in front of it (in the direction it's moving). It's much easier to be hit by these projectiles when standing in front of them than when sneaking in behind them.
+
 ### Orange Marker
 
 (Screenshot pending, example visible in Gaze Attack section)
@@ -85,7 +94,7 @@ General term for any persistent ground-based effect that you don't want to walk 
 
 (Screenshot pending, appears as a small orange circle with thin orange lines pulsing out from it.)
 
-This marker means that you will take extra damage if you are too close to it. Most such markers do not smoothly fall off. There is simply a distance where you take "kills you" damage, and a distance where you're fine. Two people can be touching and one can die while the other takes almost nothing. If you don't know the exactly distance it's probably best to play it safe, since this marker does not show you the precise distance you need to be.
+This marker means that you will take extra damage if you are too close to it. Most such markers do not smoothly fall off. There is simply a distance where you take "kills you" damage, and a distance where you're fine. Two people can be touching and one can die while the other takes almost nothing. If you don't know the exact distance it's probably best to play it safe, since this marker does not show you the precise distance you need to be.
 
 **Flare Marker**
 
@@ -103,7 +112,22 @@ In rare cases a small version of the same telegraph appears to indicate you shou
 
 ### Stillness/Motion
 
-Unfortunately the markers for this one vary way too much.
+Unfortunately the markers for this one vary way too much. The simple version is as follows
+
+**Stillness**: Much like acceleration bomb, just stop moving, attacking, or animating in any way. Detarget the boss to ensure you don't auto-attack. If there is any animation happening when it checks, you get punished. Possibly with instant death.
+
+**Motion**: The opposite of stillness. When it checks, you _must_ be moving. Unlike stillness, though, usually only actual movement and jumping count. Casting, auto-attacks, etc usually do not count.
+
+### Tethers
+
+A general name for when a line of some kind connects any two entities on the battlefield. Except two players, that's typically called a chain. Unless it's a positive effect the player themselves triggers (e.g. Dragoon with Dragon Sight or Paladin with Cover), then it's called a tether again.
+
+If two enemies tether to each-other that's usually a sign they need to be pulled apart to prevent them from buffing each-other. When pulled apart the line should disappear to indicate that they are no longer buffed.
+
+If an enemy tethers to a player, it means it will use some kind of special move on that target unless it is somehow intercepted. These can work in a few ways:
+* Handoff - If someone passes between the player and enemy, the tether will redirect to consider them its new primary target and start following them around. 
+* Interception - If a person passes between the player and enemy, the tether will _appear_ to redirect to them, but it will not follow the new target and if that person gets out of the way it will go back to the original target. These ones require the interceptor to stay between the original target and the enemy if they wish to absorb the effect.
+* Special - Some fights just follow their own rules for deciding who gets tethered. Usually in these cases you either need to do something fight-specific to change the target, or you just can't change the target.
 
 ### Towers
 

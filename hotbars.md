@@ -38,7 +38,7 @@ A simple screen. Any hotbar with the checkbox active will be shared between jobs
 
 * Hotbar 1 is always the one replaced by special actions when mounted or in certain duties. And you can't change that, nor can you change which buttons go where. So try to make your first few hotbar 1 binds particularly easy to reach so it's not awkward when the game makes you RP play as an NPC or something.
 * Hotbar 1 is the hotbar with the lock/unlock button. As far as I know, you cannot move this lock to another hotbar, and hiding hotbar 1 hides the lock symbol.
-* Even if you disable a hotbar in settings, it is still functional! Not a particularly useful trait, but one to be aware of.
+* Even if you disable a hotbar in settings, its keybinds are still functional! Not a particularly useful trait, but one to be aware of.
 
 ### I'm Out Of Keybind Space! (Keyboard+Mouse)
 

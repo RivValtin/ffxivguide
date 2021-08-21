@@ -6,8 +6,10 @@ I recommend control+F. I will add to this as I think of things. There's too much
 
 ### General Terms
 
+* Adds - Enemies that enter a boss fight as it is ongoing. Typically should be prioritized, but exact priorities vary.
 * Aggro - See Enmity
 * Auto (or Auto-Attack) - A basic attack done at set intervals by both enemies and players. The damage will show in floating text without an associated ability name. Many weak or basic enemies will only auto-attack and nothing else. Many enemies can auto from range, or move fast enough that kiting is not useful, so unless you're sprinting or something don't try to avoid these. You do not have to be facing your target to auto-attack.
+* Baited - Describes an attack is targeted at players in a way that can be controlled by the players. Usually it targets the furthest person, or the closest person, or in at least one case both. It might also be random, but centered on the player, so if everyone baits together you can focus the fire in one spot so that it's easier to dodge.
 * (Boss) Jump - Any time the boss becomes untargetable even though they aren't dead yet. 
 * Class - As class in other games, except in FFXIV combat classes are like your junior mode. You want to upgrade them to Jobs at level 30, which is really what you'll play in combat.
 * Cleave - Any ability that is meant to deal damage on a single target but can also hit others nearby is a Cleave. When a boss cleaves it's typically a forward attack meant to punish non-tanks for being up front. So don't be in front! If someone asks you to cleave they mean to try to hit multiple enemies that are stacked up.
@@ -18,12 +20,14 @@ I recommend control+F. I will add to this as I think of things. There's too much
 * Limited Job - A special type of combat job that is not allowed to use standard duty finder or roulettes. They are also barred from some content entirely. What content they can queue into they must do so either undersized or with a full premade group. Meant more as a fun minigame than a serious job/class.
 * Mechanic - Fancy word that means "a thing the fight does that requires you to do something other than stand there slapping it for damage". 
 * Mob - Another word for enemy or monster.
+* Off-Threat - An attack that targets someone without respecting enmity. Usually ends up targeting a healer or damage dealer, and there's nothing that tanks can do about that.
 * Raidwide - Short for "raidwide damage", and refers to any attack that deals damage to everyone regardless of position. Often unavoidable.
 * Resolve - When something that was previously telegraphed actually occurs.
 * Snapshot - Every damaging ability checks how much damage it should deal at a very specific time, and it's usually not at the same time as you see the damage. That timing is the snapshot timing. Most enemy things snapshot when the orange circle disappears or when the cast ends, but it can vary.
 * Stack - Means to have everyone tightly stacked together. Can also refer to a mechanic that asks you to stack together in order to split the damage.
 * Telegraph - Any mark that is there to warn you about what's going to happen next (or at least soon) in the fight.
 * Threat - See Enmity.
+* Trash - A special name given to non-boss enemies that are not part of a boss fight. They're usually very simple filler between bosses.
 
 ### Community Names for Mechanics
 These are special names the community uses for commonly appearing attack patterns. Usually named after the first mechanic to appear in the game that worked similarly.

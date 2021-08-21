@@ -17,6 +17,11 @@ If you really want to maximize your game, I encourage you to check multiple guid
 * [Fight Telegraphs, and Common Mechanics](telegraphs.md) (WIP) - Common symbols used in various fights and what they mean.
 * Addons/Mods - These are against terms of service and will break on patch day, somtimes staying broken for a week. Not advised, and also unnecessary. Parsing for personal use is a tenuous exemption. Never talk about any such tool in game in any way, parsing included (don't even mention DPS). That is the totality of my coverage on such things, except as present in the Parses page.
 
+**Role-Specific Topics**
+* [Tank Basics](tankbasics.md)
+* [Healer Basics](healerbasics.md) (not started)
+* [DPS Basics](dpsbasics.md) (not started)
+
 ### Class Guides
 
 TODO. But I won't cover every class here, that's too much work for one person. Most likely I'll focus on the 1-2 I play the most at the time.
