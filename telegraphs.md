@@ -5,6 +5,8 @@ A list of various commonly-used telegraphs and what they mean, as well as common
 
 There are a huge number of special-case telegraphs. While that might seem annoying, they usually works the same as another telegraph on this list and are just visually different. The more mechanics you've seen and understand the easier it will get to pick up on these, but the developers add new twists to new fights all the time to keep things interesting.
 
+The fight mechanics in this game are meant to be mini-puzzles. Easy content will make these puzzles easy, but even in those cases you should expect that you'll fail to figure out the puzzle on your first try here and there, no matter how experienced you are. There's no shame in that. And if you're not experienced you'll probably fail them a lot while figuring them out.
+
 ### Acceleration Bombs
 
 (Screenshot pending, appears as dice counting down over your head.)
@@ -104,9 +106,9 @@ This acts like a proximity marker, except that instead of being attached to the 
 
 ### Stack Marker
 
-(Screenshot pending, appears as a thing circle with 4 arrows pointing inward, usually centered on a person)
+(Screenshot pending, appears as a thin circle with 4 arrows pointing inward, usually centered on a person)
 
-This marker means that the damage dealt by the attack will be split between everyone inside the circle. If it targets you then try to make it easy for people to get to you and don't move too much if you're already close to the boss. 
+This marker means that the damage dealt by the attack will be split between everyone inside the circle. If it targets you then try to make it easy for people to get to you and don't move too much if you're already close to the boss. Some bosses have a multi-hit variation of this, in which case every hit is split separately and you need to remain stacked until it's over.
 
 In rare cases a small version of the same telegraph appears to indicate you should stack in a spot, even if it isn't specifically dealing damage.
 
@@ -120,7 +122,7 @@ Unfortunately the markers for this one vary way too much. The simple version is 
 
 ### Tethers
 
-A general name for when a line of some kind connects any two entities on the battlefield. Except two players, that's typically called a chain. Unless it's a positive effect the player themselves triggers (e.g. Dragoon with Dragon Sight or Paladin with Cover), then it's called a tether again.
+A general name for when a line of some kind connects any two entities on the battlefield. When it's two players connected, that's typically called a chain instead. Unless it's a positive effect the player themselves triggers (e.g. Dragoon with Dragon Sight or Paladin with Cover), then it's called a tether again.
 
 If two enemies tether to each-other that's usually a sign they need to be pulled apart to prevent them from buffing each-other. When pulled apart the line should disappear to indicate that they are no longer buffed.
 

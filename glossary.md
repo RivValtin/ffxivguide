@@ -8,6 +8,7 @@ I recommend control+F. I will add to this as I think of things. There's too much
 
 * Adds - Enemies that enter a boss fight as it is ongoing. Typically should be prioritized, but exact priorities vary.
 * Aggro - See Enmity
+* AoE - Short for Area of Effect. Refers to any attack that deals damage to multiple targets based on being within a set area. All jobs (at max level) prefer using their AoE attacks when they can hit at least 3 enemies, and some even do so at 2 enemies.
 * Auto (or Auto-Attack) - A basic attack done at set intervals by both enemies and players. The damage will show in floating text without an associated ability name. Many weak or basic enemies will only auto-attack and nothing else. Many enemies can auto from range, or move fast enough that kiting is not useful, so unless you're sprinting or something don't try to avoid these. You do not have to be facing your target to auto-attack.
 * Baited - Describes an attack is targeted at players in a way that can be controlled by the players. Usually it targets the furthest person, or the closest person, or in at least one case both. It might also be random, but centered on the player, so if everyone baits together you can focus the fire in one spot so that it's easier to dodge.
 * (Boss) Jump - Any time the boss becomes untargetable even though they aren't dead yet. 
@@ -28,6 +29,7 @@ I recommend control+F. I will add to this as I think of things. There's too much
 * Telegraph - Any mark that is there to warn you about what's going to happen next (or at least soon) in the fight.
 * Threat - See Enmity.
 * Trash - A special name given to non-boss enemies that are not part of a boss fight. They're usually very simple filler between bosses.
+* Weaving - Using an ability unaffected by global cooldown while your global cooldown is rolling.
 
 ### Community Names for Mechanics
 These are special names the community uses for commonly appearing attack patterns. Usually named after the first mechanic to appear in the game that worked similarly.

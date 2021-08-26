@@ -6,6 +6,24 @@ The job of the tank is to take the big hits that others can't. That sounds prett
 
 The tank role has two sub-roles when in 8-man content: Main Tank (MT) and Off-Tank (OT). The only difference is that Main Tank is the one who currently has the boss's attention. Some mechanics force you to swap, but not all fights will require this, in which case MT can potentially stay MT the entire time.
 
+### Helpful UI
+
+**Party List and Enmity Order**
+
+On your party list, there will be numbers next to the icons for each person. These numbers vary from 1-8, and one of them (typically the 1) will be replaced by an A. This is the order of everyone's enmity for your current target. 1 has the most enmity, 8 has the least. Typically enemies target the person with the most, so the 1 is usually replaced with the A, which indicates the enemy's current primary target. There are rare cases where enemies will decide primary target separate from enmity.
+
+As a tank your goal is to be #1 (in 4-man content) or #1/2 (in 8-man content). In 24-man content you can only see numbers for your team, so you can be #1 on your team (and should be) without being the main target. 
+
+In 8-man, enemies often will target both #1 and #2 with big hits somewhere in the fight, so it's important to be at least #2 in threat. Even if they don't, being #2 means that if the current tank dies for any reason the boss immediately turns to the other tank rather than a squishy healer or DPS. Not all boss abiliies meant to target both tanks will use #1/#2 aggro. Some will use #1 and "any living tank that isn't #1". If no such person exists the second target is chosen randomly.
+
+As a rule of thumb, avoid taking threat from another tank on accident. If they have #1 enmity and are handling the boss, and the fight isn't forcing otherwise, you should just let them keep it. 
+
+**Enemy List**
+
+Usually below the party list, a separate UI element will list all enemies you are currently in combat with, as well as their health and a little colored symbol. That colored symbol indicates your enmity on that target. A red square means the enemy has you as their primary target, and this is typically desirable. A green dot meants you're nowhere near their top priority. Orange means you're close to taking threat, but don't have it. Yellow means you have noticeable threat, but aren't particularly close to the highest. Note that these are %-based, so for the first 1-2 attacks in a fight the colors can be a bit chaotic.
+
+You can use the enemy list in dungeons to determine quickly if an enemy has decided to attack a teammate instead of you. If you're focusing on AoE this shouldn't typically happen, but you can use a ranged attack or provoke to bring that enemy back to you. Ideally the person being targeted should drag the enemy into the group so you hit them while doing your aoe, but that won't always happen.
+
 ### The Toolkit
 
 **Tank Stance**:
@@ -41,8 +59,8 @@ Every attack that hits you has a point called a snapshot. This is the time when 
 * Invuln - A "don't die" ability with a very long cooldown and short duration. Paladin and Gunbreaker both have invulns that are good to use in dungeons, while the other two are best saved for raids.
 * Tank-Specific Tools - Each tank has 1-2 other tools that are utterly unique to them. This includes self-healing (on WAR), mitigation only against magic (on DRK), etc.
 * Reprisal - Makes every enemy within a short range deal 10% less damage for 10s. Not much, but it's something. And crucially, it affects raidwides, so you can help keep your team alive with it. The cooldown is short and both tanks have it, so in 8-man content you should alternate and use it frequently.
-* Arm's Length - It doesn't look like a mitigation tool, does it? Well, surprise! While arm's length is going basic enemies (_not bosses!_) will be slowed if they hit you. THis slow reduces how fast they attack you, which means you take less damage. So use it in dungeons on trash packs.
-* Party Mit - Every tank has at least one ability (PLD has two) that reduces the damage the team takes, rather than being focused on themselves. Typically reserved for raidwides to help the team survive rather than being used for yourself. WAR will sometimes use their for themselves in dungeons (Shake it Off) since there are no dangerous raidwides there.
+* Arm's Length - It doesn't look like a mitigation tool, does it? Well, surprise! While arm's length is active, basic enemies (_not bosses!_) will be slowed if they hit you. This slow reduces how fast they attack you, which means you take less damage. So use it in dungeons on trash packs.
+* Party Mit - Every tank has at least one ability (PLD has two) that reduces the damage the team takes, rather than being focused on themselves. Typically reserved for raidwides to help the team survive rather than being used for yourself. WAR will sometimes use theirs for themselves in dungeons (Shake it Off) since there are no dangerous raidwides there.
 
 Community convention: Despite mitigation stacking multiplicatively, people will still say things like "needs 40% mit and shields". This means using mitigation that would add up to 40% if you just read the tooltip numbers, and does not actually refer to needing to reduce the damage by 40%. In this case, two 10% reductions and a 20% reduction would be sufficient (for example).
 
@@ -71,3 +89,11 @@ Most teams prefer that you pull together at least 2 packs, even in leveling dung
 Use sprint before you first enter combat if you're pulling multiple packs. The extra speed makes it possible to outrun the enemies so that they don't deal damage to you (or at least, deal a lot less) while you're running to the next group you plan to pull. You want to use it _before_ combat if you can, since doing so doubles its duration.
 
 When fighting many enemies it is acceptable to move around a lot. Try to keep the enemies tightly packed, but don't worry as much about turning them around a lot. No DPS will lose damage in big pulls from enemies turning, but they will lose damage if the enemies spread out. Be careful, though: Every so often the devs like to put an enemy in a trash pack that actually cleaves. Once you figure out an enemy cleaves be more careful turning that specific one. 
+
+### Misc. Tips and Community Conventions
+
+* In casual 8-man content (i.e. not extreme, ultimate, or savage), whoever turns their tank stance on first is usually expected to tank the boss, probably for the whole fight (since such content doesn't require tank swaps). If that person isn't you, start with your stance off and avoid taking threat from the other tank unless strictly necessary.
+* In dungeons, spamming AoE to keep threat is not just the way to go, it's also more overall damage. Use your ranged attack and/or provoke to pick up stray mobs when necessary.
+* As a tank, you're expected to take the lead. People don't necessarily expect you to know where you're going, but they will expect to go first.
+* Don't wiggle idly. Normally any boss movement is taken as a sign that you're going to move the boss on purpose for some reason, so random wiggles confuse people. Also, melee DPS have an easier time maximizing damage if the boss doesn't move or rotate at all.
+* While your extra health and defense can make it possible to survive avoidable attacks that DPS cannot, avoid doing so on purpose. These attacks usually also come paired with a debuff that makes all _further_ attacks deal more, and sometimes even reduce your damage output dramatically. If your healer has to heal you more for you to get that extra hit in, then it's a team damage loss so don't do it.

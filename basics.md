@@ -100,7 +100,7 @@ Despite these limitations there are a few cases where macros are common/acceptab
 * **Single Targeted Friendly Abilities** - This includes things like Shirk, or Nascent Flash. Mostly a tank thing. While it _is_ more optimal to quickly swap targets and use the ability the hard way, some may have trouble swapping quickly or smoothly enough to make it worth it, in which case using a macro to aim them at a specific teammate instead is potentially a better option. 
 * **Crafting/RPing** - Not covered here. Crafters use macros extensively since crafting is not timing sensitive, but the reliability gains are huge. RPers also use macros for various things. But please don't be that guy that has an RP macro attached an ability. It just annoys people. You can use the /echo command to post messages to only your chat if you absolutely must.
 
-Regardless, any time you use a macro you must be aware that you may not be able to weave as smoothly as you normally do. If you find you start delaying your GCD while using a macro, you should probably adjust to use only the one macro'd ability between two GCDs rather than going for the normal double weave.
+Regardless, any time you use a macro you must be aware that you may not be able to weave as smoothly as you normally do. If you find you start delaying your GCD while using a macro, you should probably adjust to treat that macro as requiring 2 weave slots.
 
 The most common macro is formed as follows:
 

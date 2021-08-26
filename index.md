@@ -18,6 +18,7 @@ If you really want to maximize your game, I encourage you to check multiple guid
 * Addons/Mods - These are against terms of service and will break on patch day, somtimes staying broken for a week. Not advised, and also unnecessary. Parsing for personal use is a tenuous exemption. Never talk about any such tool in game in any way, parsing included (don't even mention DPS). That is the totality of my coverage on such things, except as present in the Parses page.
 
 **Role-Specific Topics**
+* Irrespective of role, you should try to understand what makes the other roles lives easier or harder and try to make their job as easy as you can. It's a team sport, so work together!
 * [Tank Basics](tankbasics.md)
 * [Healer Basics](healerbasics.md) (not started)
 * [DPS Basics](dpsbasics.md) (not started)
