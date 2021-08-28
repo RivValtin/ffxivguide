@@ -10,11 +10,12 @@ If you really want to maximize your game, I encourage you to check multiple guid
 ### Topics
 
 * [Glossary](glossary.md) - Commonly used terms and what they mean. Will add to this over time.
+* [Gear](gear.md) - What stats mean, where to get it, and so forth.
 * [Hotbars](hotbars.md) - Advice on setting up your hotbar.
-* [Camera Settings](camera.md) (not started)
 * [The Basics - Uptime and oGCDs](basics.md) (WIP, needs images)
 * [Parses, and How to Read Them](parses.md) (not started)
 * [Fight Telegraphs, and Common Mechanics](telegraphs.md) (WIP) - Common symbols used in various fights and what they mean.
+
 * Addons/Mods - These are against terms of service and will break on patch day, somtimes staying broken for a week. Not advised, and also unnecessary. Parsing for personal use is a tenuous exemption. Never talk about any such tool in game in any way, parsing included (don't even mention DPS). That is the totality of my coverage on such things, except as present in the Parses page.
 
 **Role-Specific Topics**
