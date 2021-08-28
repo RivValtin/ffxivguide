@@ -28,55 +28,24 @@ If you really want to maximize your game, I encourage you to check multiple guid
 
 TODO. But I won't cover every class here, that's too much work for one person. Most likely I'll focus on the 1-2 I play the most at the time.
 
-<!--
-	Hotbars
-	Camera Settings
-	Uptime, GCDs, oGCDs, et al.
-	How to Read a Parse
-	
-	Class Guides
-		(List these as sub-elements on main page, not on another page).
-		The Basics.
-		Opener and Rotation.
-		Fight-Specific Advice
+### Other References
 
--->
+Stuff not made/written by me, but that I felt was pretty good.
 
-<!--
-## Welcome to GitHub Pages
-You can use the [editor on GitHub](https://github.com/RivValtin/ffxivguide/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Tools**
+* [Etro](http://etro.gg) - A site for making and saving gear sets. Mostly used to create a theoretical perfect set for you to work towards. I find it easier to use than Ariyala, but YMMV.
+* [Ariyala](https://ffxiv.ariyala.com/) - Another site for making and saving gear sets.
+* [FF Logs](http://fflogs.com) - A place to upload battle logs made by ACT in order to be judged, as well as check statistics and leaderboards on various fights. (WARNING: Do not use any of this information to exclude/harass people; You can be banned for it. Use it for self-improvement _only_.)
+* [XIV Analysis](https://xivanalysis.com/) - A tool for analysing your logs from fflogs to find ways to improve. Treat this as a flagging tool. That is to say, it will flag things that are _probably_ problems, but in some cases advanced players will see flags that they can safely ignore. You can use high-ranking public logs from others as a comparison point.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Text Guides**
+* [Clees Guides](https://clees.me/guides/) - Mostly for the UCoB and UWU ultimate guides, which are commonly referenced. Somewhat old guides, but still very valid.
+* [Stat Breakpoint Tables](https://www.akhmorning.com/allagan-studies/stats/) - A reference sheet useful for advanced gear tweaking.
 
-### Markdown
+**Videos**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As a general rule, avoid relying on video guides for openers and rotations. In my experience such videos are often somewhat inaccurate, and it's not necessarily the author's fault as videos are much harder to update than text guides. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RivValtin/ffxivguide/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
--->
+* [A Crap Guide to Tanking](https://www.youtube.com/watch?v=P8oVV_I-tIA) - Despite the name and comedic tilt, actually good advice.
+* [Momo's Healer Guide](https://www.youtube.com/watch?v=5WhrCpxtpQ8) - Has at least one tip that even the best healers I know didn't already know.
+* [MTQ Capture](https://www.youtube.com/user/MTQcapture) - A channel with lots of fight guides. They are more succinct than most guides and come out fast, but as a consequence can contain some innaccuries or older, less-favored strategies.
