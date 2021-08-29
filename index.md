@@ -37,6 +37,7 @@ Stuff not made/written by me, but that I felt was pretty good.
 * [Ariyala](https://ffxiv.ariyala.com/) - Another site for making and saving gear sets.
 * [FF Logs](http://fflogs.com) - A place to upload battle logs made by ACT in order to be judged, as well as check statistics and leaderboards on various fights. (WARNING: Do not use any of this information to exclude/harass people; You can be banned for it. Use it for self-improvement _only_.)
 * [XIV Analysis](https://xivanalysis.com/) - A tool for analysing your logs from fflogs to find ways to improve. Treat this as a flagging tool. That is to say, it will flag things that are _probably_ problems, but in some cases advanced players will see flags that they can safely ignore. You can use high-ranking public logs from others as a comparison point.
+* [Garland Tools](https://garlandtools.org/) - A nice reference site, especially for the Garland Data section which lets you look up any item in the game, including currency, to see where it comes from and ways it can be used.
 
 **Text Guides**
 * [Clees Guides](https://clees.me/guides/) - Mostly for the UCoB and UWU ultimate guides, which are commonly referenced. Somewhat old guides, but still very valid.

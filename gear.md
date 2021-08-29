@@ -124,3 +124,41 @@ Each floor drops very specific items, as below, in coffer form. These coffers ca
 * Fourth Floor: One weapon coffer, one body armor coffer, one specific weapon chosen at random (e.g. the RDM rapier), a mount, and a minion (the same one that drops in normal mode). With luck your team could get 2 useful weapons every week, but sometimes the boss just keeps dropping the same weapon for that specific one.
 
 In addition to the above is the books. Each time you clear a boss and are eligible for loot, you get a single "book" token, with each boss dropping a different token. With these you can buy items that the boss in question normally drops. Head, Gloves, and Boots are bought with the 2nd boss's tokens only, despite the third boss also dropping those items. Each item costs between 4 and 8 books. These tokens mean that even if you have very bad luck at winning the coffers that the boss drops, you will still slowly get the items you want over time.
+
+### Materia Melding
+
+Materia are a socketable item that you attach to a piece of gear to grant it additional stats. While more variety has existed in the past, these days only substats can be melded for effect. (Though you might still find old materia like Strength materia on the marketboard, it will provide no bonus.)
+
+Each item will have a set number of sockets between 0 and 5, and may or may not allow "advanced melding" (called overmelding by the community).
+
+The sockets shown have a 100% chance to accept any materia you attempt to meld, and you can use the NPC materia melders to do so. If advanced melding is allowed, then you can continue melding past that point up to a final maximum of 5 materia, but such melds will as low as a 5% chance to succeed. On failure the materia is broken, but the item is unmodified. Only players with sufficient crafter levels can overmeld, but thankfully you can ask another to overmeld for you without having to trade them the items.
+
+As a general rule, only white and crafted items allow advanced melding. Raid drops, dungeon drops, tome equipment, etc do not. Items with 5 sockets are exceedingly unusual. Most will have only 1-2 sockets.
+
+Each item has a set limit to how much it can accept on any given substat. This limit will be shown at the bottom of the melding window. It will allow you to meld (with warnings) even if it would push past this limit, but stats beyond that limit will not be counted. Because the limit is specific to each substat, you can just meld a different substat if your preferred one is already at/near its limit.
+
+**Expectations**
+
+People will not expect you to have melded your gear in most content. However, they _will_ expect it in extreme trials, savage raids, and ultimates that are at the current maximum level. Realistically people don't really check, but don't try to get away without melding in that content. Materia isn't too hard to come by anyway, and melding nothing is easily a 5% or more damage loss.
+
+**Acquiring Materia**
+
+Materia drops from chests in max level dungeons, and is purchaseable from hunt and beast tribe vendors, as well as possibly some other places. You can also get tokens that you can trade for a materia of your choice, usually gained as a roulette bonus (for matching the requested role in leveling or alliance roulettes) or as a drop from hunts. My preferred route is to do hunts as you get more tokens per hour that way than other methods.
+
+You also get a slow supply by Extracting your gear. Certain activities grant spiritbond with your gear. When that reaches 100% it will trigger a sound effect and a chat message, and you can then right-click and "extract" materia to get a random free materia from the item (and reduce the gauge back to 1%). This used to destroy the item, but doesn't anymore, so it's just free. The option to extract is right next to "retrieve", so try not to confuse the two. Retrieve removes materia you have socketed instead.
+
+### Item Level Sync
+
+Some duties will sync your item level. When this happens, the way it modifies your gear is non-obvious, so it merits a quick explanation.
+
+Item level sync is done on a _per item_ basis, not on your total stats. This means if you have only one item over the sync limit then it will still have its stats reduced even if your average is under the limit.
+
+Once the game decides to sync an item down, it does the following the adjust its stats:
+
+* Disables  the bonuses from all materia.
+* Reduces weapon damage, main stat, and vitality to what a HQ item of that item level would give.
+* Reduces each substat on the item so that no one substat is higher than the melding cap for a HQ item of that item level.
+
+That last point on substats is the weird one. It looks at each substat one at a time rather than looking at them together, so even though a typical item would have only one substat at the cap and another that's lower, an item being synced down by a large amount can easily have both substats capped. And some special items, like relics, can potentially cap as many as _four_ substats simultaneously.
+
+Although materia is disabled, the fact that substats cap individually means that when equipping items with high enough item level you can potentially be better off allowing the sync than trying to get an item of the appropriate ilvl. This is most notable in older ultimates.
