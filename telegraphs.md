@@ -13,6 +13,14 @@ The fight mechanics in this game are meant to be mini-puzzles. Easy content will
 
 When the dice hits 0, you cannot be moving, attack, or performing kind of animation or you will take damage. Typically it's best to stop and detarget the boss at 1, maybe even 2 if you have bad ping. There will be a final audio cue at the "0" mark, at which point you can move again.
 
+### Body Telegraph
+
+No example screenshot here since it varies too wildly, but a body telegraph is any time that the post/animation of the enemy itself is your only warning for what's about to happen. If you see an enemy holding a pose for an unusually long time, it may be a body telegraph. 
+
+Such telegraphs usually match where they hit pretty well. If an enemy is holding their tail up, they probably hit everything behind them. If they hold a claw up looking forward, they probably hit everything in front of them. And so forth.
+
+There is only one fight with more complex body telegraphs, and that is Rathalos, which is an optional fight added as part of a cross-over event. It's an oddball because it uses the telegraph rules of the game it comes from rather than FFXIV's rules.
+
 ### Chains
 
 (Screenshot pending, appears as a chain of some kind connecting two people.)
@@ -30,7 +38,7 @@ Looks like a regular chain, but you also have a plus or minus symbol over your h
 
 Like towers, these are meant to be stood inside. Unlike towers, you need more than one person, and typically there is no damage if the right number of people are inside. You can tell the number needed by the marks within the circle itself. One should light up for each person inside. If all are lit up, enough people are inside.
 
-One variation of this attack, which specifically uses dots, will show chains around the outside of the circle the moment enough people step inside. This means that circle is "locked". If you fail these ones than the boss will typically summon an additional enemy in that spot.
+One variation of this attack, which specifically uses dots, will show chains around the outside of the circle the moment enough people step inside. This means that circle is "locked" and it is safe to leave. If you fail these ones than the boss will typically summon an additional enemy in that spot.
 
 ### Damage Down
 
@@ -40,15 +48,28 @@ This mark is almost always a punishment for failing to do a mechanic correctly. 
 
 Sometimes derogatorially called a Dumbage Down. There is at least one example of a forced damage down, however that particular one can be removed by a healer, so it's more of an esuna check.
 
+### Enumrations
+
+![Enumeration example image](images/telegraphs/enumeration.png)
+*An enumeration that is requesting that 3 people be within the circle.*
+
+This is a circular area that demands that a very specific number of people be inside of it when it resolves. The number of orbs hovering in the center is the amount required. Any less _or_ more than this exact number will be considered a failure. On success you typically take no damage or negative effect whatsoever.
+
+The mechanic really is as simple as it sounds to understand, but the difficulty comes in coordinating landing on the exact number since it's easy to have too many/few and the attack resolves fairly quickly.
+
 ### Gaze Attack
 
-![Gaze attack example image](images/gaze_attack.png)
+![Gaze attack example image](images/telegraphs/gaze_attack.png)
+*A gaze attack combined with an orange ground telegraph.*
 
 The eye symbol means that your character must be facing away from the monster when the attack activates or you will take some form of negative effect. They're usually something like paralysis, stun, petrify, or doom, and even in easier fights can easily kill you from the single mistake.
 
 Remember, it is your _character_ that must face away, not your camera. Your character has a vision cone of approximately 90 degrees, maybe a touch more. The cone in the image is also 90 degrees to give you an example of what it looks like.
 
 If a gaze attack also has an orange marker on the ground, that means you can avoid it either by turning away _or_ by being out of the orange marker. It is not necessary to do both. Other telegraphs combined with gaze attacks are just two separate effects happening at once, so in those cases you'll have to do both things (e.g. stack and look away).
+
+![Gaze attack with stack example image](images/telegraphs/stack_gaze.png)
+*A gaze attack combined with a stack marker. You must be in the circle, but looking away from the eye.*
 
 ### Knockback
 
@@ -60,7 +81,7 @@ Appears as a watery spout on the edge of the arena. When it goes off a few secon
 
 **Blue Circle**
 
-Appears as a blue pulsing circle. When it goes off you are pushed directly away from the center of it. However, being _inside_ the circle when it resolves is also deadly.
+Appears as a blue pulsing circle on the ground. When it goes off you are pushed directly away from the center of it. However, being _inside_ the circle when it resolves is also deadly. There are a small number of cases where a mechanic works identically to this but uses a different appearance for the ground marker (such as Void Aero III on the first boss in Dun Scaith).
 
 **Ground Arrows**
 
@@ -68,7 +89,7 @@ Fairly self-explanatory. If you see arrows on the ground traveling in a specific
 
 **Punish Knockbacks**
 
-Some knockbacks aren't telegraphed separately, but are instead punishments for failing another mechanic and are meant to kill you.
+Some knockbacks aren't telegraphed separately, but are instead punishments for failing another mechanic and are meant to kill you. It's just a way to switch things up so not every mechanic failure is just a really big damage number.
 
 ### Meteors
 
@@ -80,13 +101,19 @@ These indicate that you must kill the rock before the meteor falling on that loc
 
 A slow-moving spherical projectile moving through the battlefield. Typically does very large damage if you touch it, sometimes in an area. Should be avoided. Note that due to network latency, you should treat the hitbox of the orb as being a little be in front of it (in the direction it's moving). It's much easier to be hit by these projectiles when standing in front of them than when sneaking in behind them.
 
+All moving hitboxes have the same weird property to their hitbox, so it's best to get used to it.
+
 ### Orange Marker
 
 (Screenshot pending, example visible in Gaze Attack section)
 
-When a colored area appears on the ground, that means some form of attack will be hitting that area soon. Orange (and sometimes very light blue) markers indicate that if you are standing in that area when the color disappears you will be hit by an attack, so move. Some of these attacks will leave behind damaging areas as well, but if they do not then it is safe to move in as soon as the orange fully disappears, even if the attack animation is still going.
+When a colored area appears on the ground, that means some form of attack will be hitting that area soon. Orange (and sometimes an opaque blue) markers indicate that if you are standing in that area when the color disappears you will be hit by an attack, so move. Some of these attacks will leave behind damaging areas as well, but if they do not then it is safe to move in as soon as the orange fully disappears, even if the attack animation is still going.
 
 The area shown by the orange is _very_ precise. If the center of your character is even a tiny bit outside of the colored area, you're fine.
+
+Confusingly, a light semi-transparent blue marker on the ground is typically a friendly effect that you do not have to avoid. Also, some enemies use their own special appearances for certain moves, but they'll always appear as a shiny effect on the ground and snapshot similarly.
+
+In some cases an orange marker will appear for only a fraction of a section before disappearing. This is meant to tell you that something _else_ was there to warn you about what was going to happen. 
 
 ### Puddle
 
@@ -106,11 +133,16 @@ This acts like a proximity marker, except that instead of being attached to the 
 
 ### Stack Marker
 
-(Screenshot pending, appears as a thin circle with 4 arrows pointing inward, usually centered on a person)
+![Stack marker example](images/telegraphs/stack.png)
+*An example of a stack marker, which this poor soul is currently taking away from the group.*
 
 This marker means that the damage dealt by the attack will be split between everyone inside the circle. If it targets you then try to make it easy for people to get to you and don't move too much if you're already close to the boss. Some bosses have a multi-hit variation of this, in which case every hit is split separately and you need to remain stacked until it's over.
 
 In rare cases a small version of the same telegraph appears to indicate you should stack in a spot, even if it isn't specifically dealing damage.
+
+These attacks typically require 6+ people to split the damage for survival to be assured, so do not try to take them alone unless you're a tank using an invulnerability move. On that note, there are a small number of cases of a "tank stack", which uses the same marker but only splits two ways. In that case stacking more people will do one of two things: It will either pick 2 people to take the hit from those in the group, or it will deal the same damage to any number of people as it would to 2. 
+
+A handful of cases have special stack/split mechanics with their own telegraphs and minor variation, but I can only think of examples in savage or ultimate, where it's supposed to take a bit longer to puzzle out how mechanics work.
 
 ### Stillness/Motion
 

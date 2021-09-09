@@ -11,13 +11,13 @@ This game has a system for overwriting gear appearances with other appearances c
 * Strength, Intelligence, Mind, and Dexterity (collectively known as "main stat") - Each job uses exactly one of these to scale both damage and healing. Healers use mind. Tanks and melee (other than Ninja) use strength. Ninja and ranged physical use dexterity. All caster dps jobs use intelligence. There is only one case of scaling anything with a separate stat, and that is SMN: their physik heal scales with Mind instead of Intelligence, so it becomes worthless _way_ before max level.
 * Vitality - Determines your maximum HP. Tanks will have more HP than most, followed by physical dps which all have about the same, then casters and healers which have a touch less than physical dps (but more magic defense to make up for it).
 * Defense and Magic Defense - Converts into a % resistance to physical and magical damage respectively. The conversion ratio is based on your level. Only tanks worry about this stat, and even then the amount you get is standardized so above level 50 you probably won't really think about it.
-* Critical Hit - A substat. Scales critical hit chance, as well as how much bonus damage you get from a critical. Base chance is 5%, base multiplier is 1.4x (or +40%). Heals can critically hit.
-* Direct Hit - A substat. Scales direct hit chance, which is a chance to deal 25% bonus damage. If the attack is also a critical the floating text changes to show multiple exclamation marks at the end. Direct hits and criticals stack multiplicatively (e.g. 1.25 * 1.4 = 1.75x damage). Heals _cannot_ direct hit.
-* Determination - A substat. Scales damage and healing across the board by a percentage. Does not affect %-based abilities like The Blackest Night or Benediction.
-* Tenacity - A substat. Functions like determination, only slightly weaker. It also reduces damage taken very slightly, but not enough to be worth it on those merits. Only functional when on a tanking job. On other jobs it won't even give the damage or healing benefits.
-* Piety - A substat. Increases the amount of MP gained passively when in combat. Does not affect out-of-combat MP recovery, or any other MP recovery mechanism (e.g. Lucid Dreaming). Only functional when on a healing job.
-* Skill Speed - A substat. Reduces the time you must wait between GCD usages on weaponskills. Has no effect on spells. 
-* Spell Speed - As skill speed, but affects only Spells.
+* Critical Hit (crit) - A substat. Scales critical hit chance, as well as how much bonus damage you get from a critical. Base chance is 5%, base multiplier is 1.4x (or +40%). Heals can critically hit. 
+* Direct Hit (DH) - A substat. Scales direct hit chance, which is a chance to deal 25% bonus damage. If the attack is also a critical the floating text changes to show multiple exclamation marks at the end. Direct hits and criticals stack multiplicatively (e.g. 1.25 * 1.4 = 1.75x damage). Heals _cannot_ direct hit.
+* Determination (det) - A substat. Scales damage and healing across the board by a percentage. Does not affect %-based abilities like The Blackest Night or Benediction.
+* Tenacity (ten) - A substat. Functions like determination, only slightly weaker. It also reduces damage taken very slightly, but not enough to be worth it on those merits. Only functional when on a tanking job. On other jobs it won't even give the damage or healing benefits.
+* Piety (pie) - A substat. Increases the amount of MP gained passively when in combat. Does not affect out-of-combat MP recovery, or any other MP recovery mechanism (e.g. Lucid Dreaming). Only functional when on a healing job.
+* Skill Speed (sks) - A substat. Reduces the time you must wait between GCD usages on weaponskills. Has no effect on spells. 
+* Spell Speed (sps)- As skill speed, but affects only Spells.
 * Rarity - The color of the item's icon indicates its rarity, but ironically this is (mostly) not useful information on its own so most people ignore it. White items, and some crafted green items, can be normal quality.
 * Others - There are other stats that can appear on gear, but they either only apply to non-combat classes, or only function very specific niche content.
 
@@ -40,7 +40,7 @@ The priority of even the highest substat is well below the priority of main stat
 * Weapon/Magic Damage - Easily the single most important stat for everyone, always.
 * Main Stat - Strength, Dex, Int, or Mind (depending on job). 
 * _Enough_ Skill/Spell Speed - For most jobs there's a very specific comfortable point they want to reach, and this is the priority for hitting that point. Anything beyond that is much lower priority. (You can safely ignore this entry in the priority list until max level.) 
-* Critical Hit - The best substat for all jobs once you start stacking it. At very low critical hit values it can actually drop to just under determination in power, but realistically only BLM has any gearsets reach that threshold.
+* Critical Hit - The best substat for all jobs once you start stacking it. Because it scales exponentially, at very low critical hit values it can actually drop under determination in power, but realistically only BLM has any gearsets reach that threshold.
 * Direct Hit - Scales _very slightly_ better than determination. Never appears on healer or tank gear, but they can still meld it.
 * Determination - The baseline substat. Very reliable, but on average very slightly weaker than critical or direct hit.
 * Tenacity - Tanks take this begrudgingly when they somehow lack a better option. Which does happen.
@@ -50,7 +50,7 @@ The priority of even the highest substat is well below the priority of main stat
 **Exceptions**
 * WAR - Always treats Direct Hit as bottom priority. Just don't use it. It's so bad for them. This is because they get lots of free direct hits already. Even tenacity is higher priority.
 * MCH - Direct Hit and Determination end up tied in value for them. You usually still prioritize direct hit due to gear sharing with other ranged physical jobs.
-* BLM - Treats Spell Speed as the same priority as Critical Hit, even once they hit comfort. They basically build to either maximize crit, or maximize speed, as two variant Best In Slot options.
+* BLM - Treats Spell Speed as the same priority as Critical Hit, even once SpS hits comfort. BLM builds to either maximize crit, or maximize speed, as two variant Best In Slot options. Though when maximizing speed, DH and det often become higher priority than crit.
 
 ### Gear Sources
 
