@@ -11,11 +11,11 @@ The fight mechanics in this game are meant to be mini-puzzles. Easy content will
 
 (Screenshot pending, appears as dice counting down over your head.)
 
-When the dice hits 0, you cannot be moving, attack, or performing kind of animation or you will take damage. Typically it's best to stop and detarget the boss at 1, maybe even 2 if you have bad ping. There will be a final audio cue at the "0" mark, at which point you can move again.
+A variant of the stillness mechanic. When the dice hits 0, you cannot be moving, attacking, or performing any kind of animation or you will take damage. Typically it's best to stop and detarget the boss at 1, maybe even 2 if you have bad ping. There will be a final audio cue at the "0" mark, at which point you can move again.
 
 ### Body Telegraph
 
-No example screenshot here since it varies too wildly, but a body telegraph is any time that the post/animation of the enemy itself is your only warning for what's about to happen. If you see an enemy holding a pose for an unusually long time, it may be a body telegraph. 
+No example screenshot here since it varies too wildly, but a body telegraph is any time that the pose/animation of the enemy itself is your only warning for what's about to happen. If you see an enemy holding a pose for an unusually long time, it may be a body telegraph. 
 
 Such telegraphs usually match where they hit pretty well. If an enemy is holding their tail up, they probably hit everything behind them. If they hold a claw up looking forward, they probably hit everything in front of them. And so forth.
 
@@ -162,6 +162,8 @@ If an enemy tethers to a player, it means it will use some kind of special move 
 * Handoff - If someone passes between the player and enemy, the tether will redirect to consider them its new primary target and start following them around. 
 * Interception - If a person passes between the player and enemy, the tether will _appear_ to redirect to them, but it will not follow the new target and if that person gets out of the way it will go back to the original target. These ones require the interceptor to stay between the original target and the enemy if they wish to absorb the effect.
 * Special - Some fights just follow their own rules for deciding who gets tethered. Usually in these cases you either need to do something fight-specific to change the target, or you just can't change the target.
+
+At least some tethers are distance tethers. This will be shown by having arrows pulsing outward from the mid point of the tether along its length, until a certain distance is reached at which point it becomes a solid beam. This means that there is some additional punishment for being too close, and once the tether changes to a solid beam you are now at the safe distance.
 
 ### Towers
 
