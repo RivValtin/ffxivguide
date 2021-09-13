@@ -37,7 +37,7 @@ These are special names the community uses for commonly appearing attack pattern
 * Almagest - Massive raidwide damage that also has a strong damage over time attached. Fairly annoying for healers.
 * Chariot and Dynamo - Chariot is a circle attack that hits centered around the boss. Dynamo is a donut-shaped attack also centered on the boss. Often paired in some way (one then the other, two different enemies which use the opposite type, etc)
 * Defamation - A really really ridiculously, _unfairly_ wide-area circular damage-dealing attack centered on one person. Requires them to move all the way out to the edge of the arena away from everyone for there to be enough room that the rest of the party can avoid it.
-* Proteans - One or more people are hit with a cone attack, usually that comes from the boss, and often targeting whoever is closest.
+* Proteans - One or more people are hit with a cone attack, usually that comes from the boss, and often targeting whoever is closest (but possibly also just targeting everyone).
 * Puddle - A persistent ground-based effect that you don't want to walk through, typically inflicting a strong debuff or dealing a large amount of damage.
 * Soak - See towers.
 * Towers - An attack that someone must deliberately stand in. Usually only one person needs to be within it, but if no-one takes the hit then it deals even more damage and to everyone instead of the one person.
